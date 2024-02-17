@@ -28,7 +28,7 @@ public class DAO {
 		}
 	}
 
-	public User getAuthorById(int autorid) {//deixei publico p/ usa efweofwoefnwe
+	protected User getAuthorById(int autorid) {//deixei publico p/ usa efweofwoefnwe
 		String query = "SELECT * FROM Usuarios WHERE usuario_id = ?";
 		try {
 			Connection con = conectar(); // Estabelece conexão com o banco de dados
