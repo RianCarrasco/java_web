@@ -1,0 +1,146 @@
+h2{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3.5rem;
+    margin:2rem 0;
+}
+
+.autor{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom:.8rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-family: sans-serif;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+	gap:1rem;
+	
+	width: 80%;
+}
+
+.deleteRecipe{
+	margin:1.5rem;
+	padding:.8rem 2rem;
+	background-color: rgb(190,20,20);
+	color:white;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	text-decoration: none;
+	border-radius: .2rem;
+}
+
+.categorias span{
+	padding:.5rem 1rem;
+	background-color: #f9f9f9;
+	border:1px solid #a2a2a2;
+	font-family: 'Franklin Gothic Medium';
+	font-size: 1.3rem;
+}
+
+.quad{
+	font-size: 1.8rem;
+	width: 80%;
+    background-color: #e2e2e2;
+    cursor:default;
+    height: 3.8rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+}
+
+.quad:hover {
+  transform: translateY(-10px); 
+}
+
+.quad p {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.texto {
+	font-size: 1.8rem;
+    width: 60%;
+    display: flex;
+    justify-content: center; 
+    text-align: justify;
+    font-family: sans-serif;
+    margin:2rem 0;
+    color:var(--gray-text-color);
+}
+
+.comentarios {
+  	width: 60%;
+  	background-color: #f9f9f9;
+  	margin-top:2rem;
+}
+
+.large{
+	width: 100% !important;
+}
+
+.adicionar-comentario {
+	  display: flex;
+	  align-items: center;
+	  gap:2rem;
+}
+
+.input-comentario {
+	  flex-grow: 1;
+	  text-align: center;
+}
+
+.adicionar-comentario textarea {
+	  width: 100%;
+	  padding: .5rem;
+	  border-radius: .5rem;
+	  text-align: center;
+	  height: 6rem;
+	  resize: vertical;
+}
+
+.adicionar-comentario button {
+	  width: 8rem;
+	  padding: .5rem;
+	  border: none;
+	  background-color: var(--primary-color);
+	  color: white;
+	  border-radius: .5rem;
+	  cursor: pointer;
+	  margin:0;
+}
+
+.comentario {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.info-usuario {
+  	display: flex;
+  	flex-direction: column;
+}
+
+.nome-usuario {
+	  margin-bottom: .5rem;
+	  font-size: 1.7rem;
+	  font-family: sans-serif;
+	  font-weight: bold;
+}
+
+.texto-comentario {
+	  font-size: 1.7rem;
+	  color: #666;
+}
+
+.data-comentario{
+	text-align: end;
+	font-size: 1.4rem;
+}
+
+
