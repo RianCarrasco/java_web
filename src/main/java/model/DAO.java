@@ -11,8 +11,8 @@ abstract class DAO {
 	// Parâmetros para conexão
 	private String driver = "com.mysql.cj.jdbc.Driver"; // driver na pasta WEB-INF/lib
 	private String url = "jdbc:mysql://127.0.0.1/db_receitas?useTimeZone=true&serverTimeZone=UTC";
-	private String user = "root";
-	private String password = "Vinifera@123";
+	private String user = "COLOQUE SEU USUÁRIO";
+	private String password = "COLOQUE SUA SENHA";
 
 	// Conexão com o bd
 	protected Connection conectar() {						//metodo responsável para se conectar com o banco de dados
